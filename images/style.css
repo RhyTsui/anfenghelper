@@ -1,0 +1,51 @@
+a,abbr,acronym,address,article,aside,audio,b,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,ul,var,video{margin:0;padding:0;vertical-align:baseline;border:0;font:inherit;font-size:100%}
+li,ol,ul{list-style:none}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+a,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0)}
+body{/*-webkit-user-select:none;*/-webkit-text-size-adjust:none}
+a,img{-webkit-touch-callout:none}
+.clearfix:after{display:block;visibility:hidden;clear:both;height:0;content:'.'}
+input[type=button]{-webkit-appearance:none;outline:none}
+
+html,body{ width:100%;}
+
+body{ font-size:0.5rem; font-family:Arial, Helvetica,"microsoft yahei","Microsoft Yahei", sans-serif; color:#000; background:#000;}
+.main{max-width:640px;background:#fff; margin:0 auto; position:relative;}
+.main .box{ position:relative; width:100%; height:11.5rem; overflow:hidden;}
+.main .box .wall{ height:10.65625rem;}
+.main .box .wall img{ width:100%; display:block;}
+.main .box .icon{ position:absolute; bottom:0rem; width:5rem; height:5rem; left:7.5rem; z-index:10;}
+.main .box .icon img{ width:100%; display:block;}
+.main .box .round{ width:60rem; height:60rem; border-radius:30rem; position:absolute;background:#fff;left:-20rem;top:8.8rem; z-index:7;}
+.content{ margin:1rem 0 0 0;}
+.content h3{ font-size:0.7rem; text-align:center;}
+.content h3 a{ text-decoration: underline;}
+.content .btn{ margin-top:2rem;}
+.content .btn a{width:7.2rem; height:2.5rem; line-height:2.5rem; display:block; margin:0 auto;text-align:center; color:#fff; font-size:0.7rem; border-radius:0.3rem;background:#22A940;}
+.content .btn:nth-child(2) a{ background:#FE5143;}
+.content .btn:nth-child(4) a{ background:#35B5FE;}
+.content .btn:nth-child(6) a{ background:#B868FD;}
+.content .btn:nth-child(8) a{ background:#23C7AE;}
+.content .btn:nth-child(10) a{ background:#FF9C00;}
+.content .btn:nth-child(12) a{ background:#22A940;}
+.content .btn:nth-child(14) a{ background:#23C7AE;}
+.content .btn:nth-child(16) a{ background:#B868FD;}
+.content .btn:nth-child(18) a{ background:#0B5CBD;}
+.content .btn:nth-child(20) a{ background:#DB821F;}
+
+
+.content p{ font-size:0.6rem; padding:0.5rem; line-height:1.5; text-align:center; border-bottom:1px solid #ddd; width:17rem; margin:0 auto; color:#999;}
+.content p span{ color:#FE5143;}
+
+
+#toast{ display:none;z-index:10000;position:fixed; width:100%;left:0; bottom:20%;text-align:center;}
+#toast p{ display:inline-block;padding:0.5rem 0.8rem;font-size:0.9rem;color:#fff;border-radius:0.5rem;background:#000; min-height:0.9rem; opacity:0.7}
+
+.toast1{background:#000 url(load1.gif) no-repeat 0 center; background-size:4.5rem auto;}
+.toast2{background:#000 url(load2.gif) no-repeat 1rem center; background-size:3rem auto;}
+.toast3{background:#000 url(load3.gif) no-repeat 1.5rem center; background-size:2rem auto;}
+.toast4{background:#000 url(load4.gif) no-repeat 1rem center; background-size:3rem auto;}
+.toast5{background:#000 url(load5.gif) no-repeat 1rem center; background-size:3rem auto;}
+.toast6{background:#000 url(load6.gif) no-repeat 1rem center; background-size:3rem auto;}
